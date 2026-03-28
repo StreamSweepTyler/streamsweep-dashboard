@@ -1,0 +1,38 @@
+timestamp_sec,timestamp_hms,item_description,brand,size,condition,retail_price_comp,sale_price,buyer_username,visual_confidence,audio_confidence,transcript_excerpt
+4.0,00:00:04,Madewell item (size mentioned but cut off),Madewell,,,,3,kaileyb24,high,low,Madewell size
+32.0,00:00:32,women's light wash stretch shorts,Madewell,27,good,,15,kenmc3432,high,high,"Madewell size twenty seven, but they have stretch light wash size twenty seven. Twenty seven to a twenty eight."
+64.0,00:01:04,"women's soft shirt with hit in the back, poolside style",Beyond Yoga,XL,like new,,19,girlgranny,high,high,Beyond yoga size XL. This is literally going to be the softest shirt in your closet. Big hit in the back.
+116.0,00:01:56,women's sports bra with padding,Nike,S,good,,3,brittanygru40037,high,high,"Size small, Nike sports bra. This has padding. This is so nice. A steal, $3."
+192.0,00:03:12,"little pink dress with open back, cotton material",,S,like new,,3,brittanygru40037,high,medium,"Size small, little pink dress with an open back. Open back, cotton material, little pink dress. This is really nice."
+256.0,00:04:16,two Lululemon bags (one blue),Lululemon,,good,,3,brittanygru40037,high,medium,Two Lulu bags. Ready now. You get two. Two Lulu bags. The blue one's so cute.
+320.0,00:05:20,women's jeans,Good American,6,good,,3,brittanygru40037,high,medium,"Good American jeans. These are a size six, you guys. These could literally fit up to an eight. Good American's so expensive."
+352.0,00:05:52,women's lightweight top with denim shorts,Abercrombie & Fitch,XS,good,,3,brittanygru40037,high,medium,"Abercrombie and Fitch size extra small. This was some denim shorts to be so cute. Would fit a small. Super lightweight, perfect for spring."
+384.0,00:06:24,women's denim jeans,Can Can,28 (can stretch to 29),good,,3,brittanygru40037,high,medium,Can can jeans. These are a 28 but can stretch to a 29. You all know how expensive can cans are.
+416.0,00:06:56,women's high waisted light wash jeans,Can Can,28 (stretches to 29-30),new,,3,brittanygru40037,high,high,"Can can jeans. These are a 28 but can stretch to a 29. High waisted, light wash. These are freaking nice."
+480.0,00:08:00,"cropped hoodie, embroidered, with bleach spots",,XXL,good,,3,brittanygru40037,high,medium,"This is all embroidered, you guys. XXL. This is cute. Cropped with the hood. It does have bleach spots but looks cute."
+512.0,00:08:32,kids' coat with pop-out Nike logo,Nike,2T,good,,3,brittanygru40037,high,medium,"Two t Nike coat. Literally amazing. Nike kids' coat, and the Nike is the pop out size two t, guys."
+608.0,00:10:08,pink crop crewneck sweatshirt,Gymshark,M,like new,,3,brittanygru40037,high,high,"Gymshark size medium, little baby crewneck running now. It's freaking pink, guys. A little croppy."
+652.0,00:10:52,kids' gray joggers with embroidered hit,Nike,Kids Medium,like new,,3,brittanygru40037,high,high,Kids medium gray Nike joggers. Hit is embroidered. Amazing condition running right now.
+672.0,00:11:12,women's jeans/pants,Can Can,32,good,,3,brittanygru40037,high,medium,"Can can size thirty two. These are really cute, guys, and have really good stretch."
+736.0,00:12:16,women's full length high waisted align leggings in black,Lululemon,6,good,,3,brittanygru40037,high,medium,"Full length black lululemon aligns, size six, would fit up to an eight. High waisted, so stretchy, these make your butt look so good."
+768.0,00:12:48,men's quarter zip pullover with zipper and embroidery,North Face,XL,good,,3,brittanygru40037,high,high,"Men's XL North Face quarter zip, and it has a zipper. This is so cute. His embroidered. This is really nice."
+832.0,00:13:52,women's jeans,Flying Monkey,28 (fits up to 29),good,,3,brittanygru40037,high,medium,These are Flying Monkey jeans. 28 would fit up to a twenty nine. These are so cute.
+868.0,00:14:28,women's jeans/denim with stretch,Frame,27,,,3,brittanygru40037,high,medium,"Frame size twenty seven. Those are fire. Frame is super expensive, guys. Best for a size eight."
+960.0,00:16:00,light blue ribbed corded crewneck sweatshirt,Aerie,XS-M,new,$65 retail,3,brittanygru40037,high,high,"Aerie crew neck is tagged in extra small, fits up to a medium. It's light blue and corded. These are like $65 retail."
+992.0,00:16:32,women's tank top,North Face,M,good,,3,brittanygru40037,high,medium,"Size medium, North Face, tank top. This is so cute. Size medium. That is yours, Kaylee."
+1024.0,00:17:04,Cape Cod shorts,Lazy Sunday,L,,,3,brittanygru40037,high,medium,"Next, lazy Sunday Cape Cod, size large. If y'all don't want this, I will keep it."
+1120.0,00:18:40,women's dry fit baby blue sports bra,Nike,Small,good,,3,brittanygru40037,high,high,Nike dry fit size small baby blue bra running now. This is so cute. Nike dry fit. Size small. Baby blue.
+1152.0,00:19:12,women's jeans (will stretch to a 31),Judy Blue,30,,,3,brittanygru40037,high,medium,"Size thirty, Judy Blues will stretch to a thirty one. Judy blue jeans. Literally amazing."
+1184.0,00:19:44,women's navy action skirt,TNA,XL,like new,,3,brittanygru40037,high,medium,"Size XL, TNA action skirt. Super expensive in the navy. Amazing condition."
+1280.0,00:21:20,kids large baby blue Champion hoodie,Champion,Large (Kids),good,,3,brittanygru40037,high,medium,"Kids size large, champion hoodies. Large and kids, baby blue, champion hoodie. So cute. It's spelled out, cod material."
+1344.0,00:22:24,women's gray joggers,Aerie,S,like new,$50 retail,3,brittanygru40037,high,high,Aerie size small. These are so cute. Gray joggers. Super soft and oversized.
+1408.0,00:23:28,women's lightweight romper,Spiritual Gangster,L,like new,$120 retail,3,brittanygru40037,high,high,"Spiritual gangster size large. It's like $1.20 retail. It's a full size romper. Lightweight, beautiful color, flawless conditions."
+1440.0,00:24:00,cropped boyfriend tee,Spiritual Gangster,XS,good,,3,brittanygru40037,high,medium,"The cropped boyfriend tee, size extra small. Size extra small, cropped boyfriend tee running now. This is super soft."
+1472.0,00:24:32,women's jeans,Judy Blue,32,like new,,3,brittanygru40037,high,medium,"Judy blue, size thirty two, Zenna. The size thirty two literally in freaking amazing condition."
+1508.0,00:25:08,women's joggers,Hollister,XS,good,,3,brittanygru40037,high,medium,"Hollister extra small, guys, will fit a small joggers running now. These are so soft."
+1536.0,00:25:36,joggers (fits small),Hollister,XS,good,,3,brittanygru40037,high,medium,"Hollister extra small, guys, will fit a small joggers running now. These are so soft."
+1568.0,00:26:08,Nike Dri-Fit athletic set with pink top and hit (shorts/pants),Nike,S,good,,3,brittanygru40037,high,medium,Nike dry fit size small. These are so cute. And you have your hit right here with your pink top.
+1632.0,00:27:12,women's camo sports bra,Athleta,M,good,price like Lulu,3,brittanygru40037,high,high,"Athleta camo bra, literally zero callout. Size medium. This is super expensive. Price like Lulu."
+1664.0,00:27:44,women's/girls' bottoms (cropped),American Eagle,14,,,3,brittanygru40037,high,low,Last item for the night. We were gonna crop it. American Eagle size fourteen. Wait. These are so cute.
+1696.0,00:28:16,girls/kids denim shorts,American Eagle,14,good,,3,brittanygru40037,high,medium,American Eagle size fourteen denim shorts running now. These are so cute.
+1732.0,00:28:52,Nike recycled/maroon item (likely hoodie or top),Nike,M,fair,,3,brittanygru40037,high,low,"Size medium would fit up to a large. It's like the Nike recycle. There's a dirt mark at the bottom, you guys."

@@ -1,20 +1,18 @@
-import {
-  getAuctionData,
-  computeStats,
-  computeBuyerStats,
-  computeBrandStats,
-  computeStreamSummary,
-  computeSparkline,
-} from "@/lib/data";
+"use client";
+
+import { useAuctionData } from "@/lib/useAuctionData";
 import ReportView from "@/components/ReportView";
 
 export default function Home() {
-  const rows = getAuctionData();
-  const stats = computeStats(rows);
-  const buyers = computeBuyerStats(rows);
-  const brands = computeBrandStats(rows);
-  const summary = computeStreamSummary(rows);
-  const sparkline = computeSparkline(rows);
+  const { rows, stats, buyers, brands, summary, sparkline, loading } = useAuctionData();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+        <p className="text-slate-400">Loading auction data…</p>
+      </div>
+    );
+  }
 
   return (
     <ReportView

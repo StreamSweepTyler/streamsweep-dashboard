@@ -12,8 +12,10 @@ out/
 .env.test.local
 .env.production.local
 
-# Data files — never commit CSV or video files
-*.csv
+# Data files — never commit raw output CSVs or video files
+auction_events*.csv
+!public/data/auction_events_enriched.csv
+transcript_*.txt
 *.mp4
 *.mov
 *.webm
