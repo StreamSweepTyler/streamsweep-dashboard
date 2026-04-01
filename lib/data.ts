@@ -8,8 +8,8 @@ export interface AuctionRow {
   item_description: string;
   brand: string;
   size: string;
-  condition: string;
-  retail_price_comp: string;
+  condition?: string;         // legacy field, no longer displayed
+  retail_price_comp?: string; // legacy field, no longer displayed
   sale_price: number;
   buyer_username: string;
   visual_confidence: string;
@@ -108,9 +108,7 @@ export function computeStreamSummary(rows: AuctionRow[]): StreamSummary {
   const h = Math.floor(durationSec / 3600);
   const m = Math.floor((durationSec % 3600) / 60);
   const s = Math.floor(durationSec % 60);
-  const durationHms = h > 0
-    ? `${h}h ${m}m`
-    : m > 0 ? `${m}m ${s}s` : `${s}s`;
+  const durationHms = h > 0 ? `${h}h ${m}m` : m > 0 ? `${m}m ${s}s` : `${s}s`;
 
   const buyerCounts = new Map<string, number>();
   for (const r of rows) buyerCounts.set(r.buyer_username, (buyerCounts.get(r.buyer_username) ?? 0) + 1);
@@ -128,7 +126,6 @@ export function computeStreamSummary(rows: AuctionRow[]): StreamSummary {
   return { durationHms, mostActiveBuyer, mostActiveBuyerItems, topBrand, topBrandRevenue, bestSalePrice: bestRow.sale_price, bestSaleItem: bestRow.item_description };
 }
 
-// Returns 10 revenue buckets for sparklines
 export function computeSparkline(rows: AuctionRow[], buckets = 10): number[] {
   if (rows.length === 0) return Array(buckets).fill(0);
   const sorted = [...rows].sort((a, b) => a.timestamp_sec - b.timestamp_sec);

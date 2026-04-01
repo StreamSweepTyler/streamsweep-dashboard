@@ -1,5 +1,19 @@
 import type { Metadata } from "next";
+import { Instrument_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
+
+const instrumentSans = Instrument_Sans({
+  subsets: ["latin"],
+  variable: "--font-display",
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "StreamSweep — Live Auction Analytics",
@@ -8,8 +22,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-slate-900 text-white antialiased min-h-screen">
+    <html lang="en" className={`dark ${instrumentSans.variable} ${dmSans.variable}`}>
+      <body className="bg-[#020817] text-slate-50 antialiased min-h-screen font-body">
         {children}
       </body>
     </html>
