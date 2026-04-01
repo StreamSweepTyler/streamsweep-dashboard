@@ -24,14 +24,15 @@ interface Props {
   summary: StreamSummaryType;
   sparkline: number[];
   sellerName?: string;
+  streamDate?: string;   // pre-formatted display date; falls back to today
   isReport?: boolean;
 }
 
 export default function ReportView({
-  rows, stats, buyers, brands, summary, sparkline, sellerName,
+  rows, stats, buyers, brands, summary, sparkline, sellerName, streamDate: streamDateProp,
 }: Props) {
   const revenueData = computeRevenueOverTime(rows);
-  const streamDate = new Date().toLocaleDateString("en-US", {
+  const streamDate = streamDateProp ?? new Date().toLocaleDateString("en-US", {
     month: "long", day: "numeric", year: "numeric",
   });
 
